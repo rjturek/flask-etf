@@ -4,8 +4,8 @@ python:
 - '3.5'
 
 install:
-  - pip install requests --target=packages
   - pip install flask    --target=packages
+
 script:
 - pwd
 - ls -la
